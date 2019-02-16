@@ -1,0 +1,65 @@
+body{
+	background-image:url(background.jpg), url(pattern.jpg), url(pattern2.jpg);
+	background-size: 100%;
+	background-position: top , center, bottom;
+	background-repeat: no-repeat; ;
+}
+
+
+
+
+#main{
+	/*sizing*/
+	min-height: 300px;
+	width: 60%;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-top: 14.75%;
+
+	/*style*/
+	z-index: 2;
+	box-shadow:5px -5px 40px;
+	border-radius: 10px;
+
+		/* background element */
+	opacity: 1;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-image: url(background-mini.png);
+
+}
+
+
+#top{
+	/*sizing*/
+	min-height: 820px;
+	
+	/*style*/
+	color:white;
+
+	font-family: 'Alex Brush', cursive;
+
+}
+h1{
+	transform: rotate(-20deg);
+	text-shadow: -5px -5px black;
+	font-size: 100px;
+}
+
+
+
+#info{
+	background-color: #020202;
+	min-height: 600px;
+}
+#about{
+	min-height: 400px;
+	background-color: #b7b6b0;
+}
+
+#footer{
+	background-image: url(pattern.png);
+	
+	min-height: 100px;
+	z-index: -1;
+}
